@@ -1,0 +1,75 @@
+{
+    "overall_score": 0.612,
+    "problems": [
+        {
+            "macro-f1": 0.516,
+            "macro-precision": 0.5,
+            "macro-recall": 0.651,
+            "micro-accuracy": 0.676,
+            "problem-name": "problem00001"
+        },
+        {
+            "macro-f1": 0.626,
+            "macro-precision": 0.638,
+            "macro-recall": 0.7,
+            "micro-accuracy": 0.667,
+            "problem-name": "problem00002"
+        },
+        {
+            "macro-f1": 0.631,
+            "macro-precision": 0.642,
+            "macro-recall": 0.692,
+            "micro-accuracy": 0.714,
+            "problem-name": "problem00003"
+        },
+        {
+            "macro-f1": 0.747,
+            "macro-precision": 0.78,
+            "macro-recall": 0.773,
+            "micro-accuracy": 0.714,
+            "problem-name": "problem00004"
+        },
+        {
+            "macro-f1": 0.533,
+            "macro-precision": 0.525,
+            "macro-recall": 0.637,
+            "micro-accuracy": 0.65,
+            "problem-name": "problem00005"
+        },
+        {
+            "macro-f1": 0.614,
+            "macro-precision": 0.594,
+            "macro-recall": 0.702,
+            "micro-accuracy": 0.826,
+            "problem-name": "problem00006"
+        },
+        {
+            "macro-f1": 0.451,
+            "macro-precision": 0.446,
+            "macro-recall": 0.544,
+            "micro-accuracy": 0.524,
+            "problem-name": "problem00007"
+        },
+        {
+            "macro-f1": 0.703,
+            "macro-precision": 0.717,
+            "macro-recall": 0.811,
+            "micro-accuracy": 0.667,
+            "problem-name": "problem00008"
+        },
+        {
+            "macro-f1": 0.709,
+            "macro-precision": 0.71,
+            "macro-recall": 0.807,
+            "micro-accuracy": 0.735,
+            "problem-name": "problem00009"
+        },
+        {
+            "macro-f1": 0.593,
+            "macro-precision": 0.602,
+            "macro-recall": 0.609,
+            "micro-accuracy": 0.703,
+            "problem-name": "problem00010"
+        }
+    ]
+}

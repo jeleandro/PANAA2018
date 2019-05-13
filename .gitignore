@@ -8,6 +8,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+.DS_Store
 build/
 develop-eggs/
 dist/
@@ -18,6 +19,8 @@ lib/
 lib64/
 parts/
 sdist/
+data/pan18-cross-domain-authorship-attribution-test-dataset2-2018-04-20/
+data/pan18-cross-domain-authorship-attribution-training-dataset-2017-12-02/
 var/
 wheels/
 *.egg-info/

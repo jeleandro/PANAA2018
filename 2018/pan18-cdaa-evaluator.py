@@ -180,11 +180,4 @@ def main():
     evaluate_all(args.i,args.a,args.o)
 
 if __name__ == '__main__':
-    #main()
-    baseDir = '/Users/joseeleandrocustodio/Dropbox/mestrado/02 - Pesquisa/code';
-
-    inputDir= os.path.join(baseDir,'pan18aa');
-    outputDir= os.path.join(baseDir,'out');
-    
-    #evaluate_all(args.i,args.a,args.o)
-    evaluate_all(inputDir,outputDir,outputDir)
+    main()

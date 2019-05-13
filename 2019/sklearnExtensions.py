@@ -75,6 +75,33 @@ class POSTagTransformer(BaseEstimator):
 
     def fit_transform(self, X, y=None):
         return self.transform(X=X, y=y)
+    
+    
+class FeatureDropper(BaseEstimator, TransformerMixin):
+    def __init__(self, drop=[]):
+        self.drop = drop
+
+    def fit(self, X, y=None, **fit_params):
+        return self
+
+    def transform(self, X, y=None, **fit_params):
+        return X[list(set(X.columns) - set(self.drop))]
+    
+    
+# this transformer handles missing values 
+class FillNaTransformer(BaseEstimator, TransformerMixin):    
+    def __init__(self, columns = None):
+        self.columns = columns
+        
+    def fit(self, X, y=None, **fit_params):
+        if self.columns is None:
+            self.columns = X.select_dtypes(exclude = ["object"]).columns
+        self.train_median = X[self.columns].median()
+        return self
+
+    def transform(self, X):
+        X[self.columns] = X[self.columns].fillna(self.train_median) 
+        return X
 
 
 
